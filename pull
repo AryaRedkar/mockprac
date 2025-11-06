@@ -1,1 +1,8 @@
-pull locally
+kubectl cluster-info
+kubectl get nodes
+kubectl create deployment my-apache --image=httpd
+create cluster button
+kubectl get deployments
+kubectl get pods
+kubectl expose deployments my-apache --type=NodePort --port=80
+kubectl get svc
