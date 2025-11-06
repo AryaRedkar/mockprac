@@ -1,1 +1,7 @@
-hello
+kubectl cluster-info
+kubectl get nodes
+kubectl create deployment my-nginx --image=nginx
+kubectl get deployments
+kubectl get pods
+kubectl expose deployments my-nginx --type=NodePort --port=80
+kubectl get svc
